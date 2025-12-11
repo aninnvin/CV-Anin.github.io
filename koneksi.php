@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username   = "root";      // User MySQL Byethost
 $password   = ""; // Password MySQL Byethost
-$dbname     = "db_cv"; // Database harus dibuat via cPanel
+$dbname     = "psas_db"; // Database harus dibuat via cPanel
 
 // Koneksi langsung ke database
 $conn = new mysqli($servername, $username, $password, $dbname);
